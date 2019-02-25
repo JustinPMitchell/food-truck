@@ -3,8 +3,6 @@ const readline = require('readline');
 readline.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);
 
-// require('dotenv').config();
-
 // setting day and arrays
 let names = [];
 let addresses = [];
